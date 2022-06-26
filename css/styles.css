@@ -1,0 +1,176 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+button {
+  font-family: "Ubuntu";
+  margin: 10px 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: grey;
+}
+
+/* Title */
+.big-heading {
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.section-heading {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.block-1 {
+  margin-bottom: 30px;
+}
+
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+.iphone-mockup {
+  transform: rotate(25deg);
+  width: 275px;
+  position: absolute;
+  right: 23%;
+  margin-left: 50px;
+}
+
+#title {
+  text-align: left;
+}
+
+.row {
+  margin-top: 100px;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Navbar */
+.navbar {
+  font-family: "Ubuntu";
+  font-size: 18px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 42px;
+  font-weight: 400;
+}
+
+.nav-item {
+  margin: 10px 25px;
+}
+
+/* Features */
+#features {
+  background-color: white;
+  padding: 3% 10%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-weight: bold;
+}
+
+.fa-solid {
+  color: #ff4c68;
+  font-size: 5rem;
+  padding: 20px 0;
+}
+
+.fa-solid:hover {
+  color: #ff765e;
+}
+
+.feature-box {
+  line-height: 1.5;
+  padding: 5%;
+}
+
+/* Testimonials Section */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+/* Press section */
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-mockup {
+    margin-top: 50px;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* <!-- Call to Action --> */
+#cta {
+  padding: 7% 20%;
+}
+
+/* Footer */
+#footer {
+  padding: 5% 0 3%;
+}
+
+.footer-logos {
+  font-size: 2rem;
+}
