@@ -7,9 +7,9 @@
 <br>
 <h2> Languages and Frameworks </h2>
 <ul>
-  <li> - HTML</li>
-  <li> - CSS </li>
-  <li> - Bootstrap </li>
+  <li> HTML</li>
+  <li> CSS </li>
+  <li> Bootstrap </li>
 </ul>
 <h2>Key skills learned</h2>
 <ul>
